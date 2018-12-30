@@ -16,13 +16,21 @@
 ## Important commands
 
 'php artisan serve' -> server start
+
 'php artisan migrate' (up/down) -> database migrations
 
 'git add .'
+
 'git commit -m "commit name"'
+
 'git branch -d name-of-branch-which-you-are-creating'
+
 'git push'
+
 'git pull'
+
 'git status' -> check changes
+
 'git stash' -> putting changes on stash
+
 'git stash pop' -> getting changes from stash
