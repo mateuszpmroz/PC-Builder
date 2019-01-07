@@ -1,12 +1,12 @@
 <template>
     <!-- navbar -->
-    <b-navbar toggleable="sm" type="light" variant="light">
+    <b-navbar toggleable="sm" type="dark" variant="dark">
 
         <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
 
-        <b-navbar variant="faded" type="light">
+        <b-navbar variant="faded" type="dark">
             <b-navbar-brand href="#">
-                <img src="../../img/pcb_logo.png" alt="logo" width="80" height="50">
+                <img src="../../img/logo.png" alt="logo" width="200" height="37">
             </b-navbar-brand>
         </b-navbar>
 

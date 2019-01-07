@@ -1,7 +1,6 @@
 // imports
 import Vue from 'vue'
 import BootstrapVue from 'bootstrap-vue'
-
 // vue use
 Vue.use(BootstrapVue);
 /**
@@ -26,7 +25,8 @@ window.Vue = require('vue');
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
 Vue.component('navbar', require('./components/Navbar.vue').default);
-
+Vue.component('contentpage', require('./components/ContentPage').default);
+Vue.component('headerpage', require('./components/HeaderPage').default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
