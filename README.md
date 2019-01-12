@@ -2,15 +2,35 @@
 
 ## How to start
 
-##### Install packed manager yarn
+1. Clone repository into your computer
+2. 'cp env.example .env'
+3. Create new database in phpmyadmin (xampp)
+4. Set up your database credentials in .env file
+5. Type 'php artisan serve'
+6. Go to 'localhost'
+7. It's done :)
 
-`yarn install`
 
 
-Remember to install yarn globally before
 
->[How to install yarn globally](https://yarnpkg.com/en/docs/install#windows-stable)
+## Important commands
 
+'php artisan serve' -> server start
 
-##### Use `yarn dev ` or `yarn watch`
-to build styles and js
+'php artisan migrate' (up/down) -> database migrations
+
+'git add .'
+
+'git commit -m "commit name"'
+
+'git branch -d name-of-branch-which-you-are-creating'
+
+'git push'
+
+'git pull'
+
+'git status' -> check changes
+
+'git stash' -> putting changes on stash
+
+'git stash pop' -> getting changes from stash
