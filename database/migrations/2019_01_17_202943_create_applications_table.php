@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateGraphicsTable extends Migration
+class CreateApplicationsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,11 @@ class CreateGraphicsTable extends Migration
      */
     public function up()
     {
-        Schema::create('graphics_card', function (Blueprint $table) {
+        Schema::create('applications', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('name');
-            $table->integer('points');
+            $table->integer('graphic_points');
+            $table->integer('processor_points');
+            $table->integer('ram_size');
             $table->timestamps();
         });
     }
@@ -28,6 +29,6 @@ class CreateGraphicsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('graphics');
+        Schema::dropIfExists('applications');
     }
 }

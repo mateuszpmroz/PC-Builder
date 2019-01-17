@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateProcessorTable extends Migration
+class CreateAdministratorsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,12 @@ class CreateProcessorTable extends Migration
      */
     public function up()
     {
-        Schema::create('processor', function (Blueprint $table) {
+        Schema::create('administrators', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('name');
-            $table->integer('points');
+            $table->integer('user_id')->unsigned();
             $table->timestamps();
+
+            $table->foreign('user_id')->references('id')->on('users');
         });
     }
 
@@ -28,6 +29,9 @@ class CreateProcessorTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('processor');
+        Schema::table('administrators', function (Blueprint $table) {
+            $table->dropForeign('administrators_user_id_foreign');
+        });
+        Schema::dropIfExists('administrators');
     }
 }

@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreatePowerSupplyTable extends Migration
+class CreateGraphicsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,11 @@ class CreatePowerSupplyTable extends Migration
      */
     public function up()
     {
-        Schema::create('power_supply', function (Blueprint $table) {
+        Schema::create('graphics', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
             $table->integer('points');
+            $table->integer('price');
             $table->timestamps();
         });
     }
@@ -28,6 +29,6 @@ class CreatePowerSupplyTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('power_supply');
+        Schema::dropIfExists('graphics');
     }
 }

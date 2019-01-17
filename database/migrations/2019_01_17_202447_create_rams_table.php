@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateApplicationTable extends Migration
+class CreateRamsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,11 @@ class CreateApplicationTable extends Migration
      */
     public function up()
     {
-        Schema::create('application', function (Blueprint $table) {
+        Schema::create('rams', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('graphics_card_points');
-            $table->integer('processor_points');
-            $table->integer('ram_size');
+            $table->string('name');
+            $table->integer('size');
+            $table->integer('price');
             $table->timestamps();
         });
     }
@@ -29,6 +29,6 @@ class CreateApplicationTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('application');
+        Schema::dropIfExists('ramsZ');
     }
 }

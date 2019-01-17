@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateRamTable extends Migration
+class CreateUsersTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,12 @@ class CreateRamTable extends Migration
      */
     public function up()
     {
-        Schema::create('ram', function (Blueprint $table) {
+        Schema::create('users', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('name');
-            $table->integer('size');
+            $table->string('email', 50)->unique();
+            $table->string('login', 50)->unique();
+            $table->string('password', 100);
+            $table->string('remember_token', 255);
             $table->timestamps();
         });
     }
@@ -28,6 +30,6 @@ class CreateRamTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('ram');
+        Schema::dropIfExists('users');
     }
 }

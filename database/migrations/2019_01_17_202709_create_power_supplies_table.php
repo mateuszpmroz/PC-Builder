@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateAdministratorTable extends Migration
+class CreatePowerSuppliesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,12 @@ class CreateAdministratorTable extends Migration
      */
     public function up()
     {
-        Schema::create('administrator', function (Blueprint $table) {
+        Schema::create('power_supplies', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('user_id')->unsigned();
+            $table->string('name');
+            $table->integer('points');
+            $table->integer('price');
             $table->timestamps();
-
-            $table->foreign('user_id')->references('id')->on('user');
         });
     }
 
@@ -29,9 +29,6 @@ class CreateAdministratorTable extends Migration
      */
     public function down()
     {
-        Schema::table('administrator', function (Blueprint $table) {
-            $table->dropForeign('administrator_user_id_foreign');
-        });
-        Schema::dropIfExists('administrator');
+        Schema::dropIfExists('power_supplies');
     }
 }
