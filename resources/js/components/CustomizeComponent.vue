@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-light" id="customize">
+    <section class="customize bg-light" id="customize">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">

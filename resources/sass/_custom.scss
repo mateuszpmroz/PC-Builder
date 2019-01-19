@@ -1,8 +1,6 @@
 // Global styling for this template
 html {
     scroll-behavior: smooth;
-    width: 100%;
-    height: 100%;
 }
 
 body {
@@ -22,7 +20,7 @@ a {
 }
 
 .text-primary {
-    color: $primary !important;
+    color: $primary;
 }
 
 h1,
@@ -104,7 +102,7 @@ img::-moz-selection {
 }
 
 // Styling for the navbar
-#mainNav {
+.main-nav {
     background-color: $gray-900;
     .navbar-toggler {
         font-size: 12px;
@@ -144,7 +142,8 @@ img::-moz-selection {
     }
 }
 @media(min-width:992px) {
-    #mainNav {
+    .main-nav {
+        color: $white;
         padding-top: 25px;
         padding-bottom: 25px;
         -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
@@ -178,9 +177,6 @@ img::-moz-selection {
 }
 
 // Styling for the configuration section
-.configuration {
-    height: 100vh;
-}
 .service-heading {
     margin: 15px 0;
     text-transform: none;
@@ -188,7 +184,6 @@ img::-moz-selection {
 
 // Styling for the Header
 header.masthead {
-    height: 100vh;
     text-align: center;
     color: white;
     background-image: url('https://www.corsair.com/corsairmedia/sys_master/productcontent/builditbeautiful-pl-Content-1.png');
@@ -197,7 +192,6 @@ header.masthead {
     background-position: center center;
     background-size: cover;
     .intro-text {
-
         padding-top: 150px;
         padding-bottom: 100px;
         .intro-lead-in {
@@ -238,10 +232,7 @@ header.masthead {
 }
 
 // Styling for the MODAL / CUSTOMIZE
-
-#customize {
-    height: 100vh;
-    width: 100%;
+.customize {
     .customize-item {
         right: 0;
         margin: 0 0 15px;
