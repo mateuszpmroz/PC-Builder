@@ -42,7 +42,7 @@
         mounted() {
             const nav = this.$refs.mainNav;
             window.onscroll = function () {
-                if (window.pageYOffset > 200) {
+                if (window.pageYOffset > 150) {
                     nav.style.background = "#000";
                 } else {
                     nav.style.background = "transparent";

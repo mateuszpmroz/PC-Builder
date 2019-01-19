@@ -184,6 +184,7 @@ img::-moz-selection {
 
 // Styling for the Header
 header.masthead {
+    height: 100vh;
     text-align: center;
     color: white;
     background-image: url('https://www.corsair.com/corsairmedia/sys_master/productcontent/builditbeautiful-pl-Content-1.png');
@@ -430,5 +431,54 @@ ul.social-buttons {
                 background-color: $primary;
             }
         }
+    }
+}
+
+// Styling for the contact section
+.contact {
+    height: 100vh;
+    background-color: $gray-900;
+    background-image: url('../img/contact.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    .section-heading {
+        color: $white;
+    }
+    .form-group {
+        margin-bottom: 25px;
+        input,
+        textarea {
+            padding: 20px;
+        }
+        input.form-control {
+            height: auto;
+        }
+        textarea.form-control {
+            height: 248px;
+        }
+    }
+    .form-control:focus {
+        border-color: $primary;
+        box-shadow: none;
+    }
+    ::-webkit-input-placeholder {
+        font-weight: 700;
+        color: $gray-400;
+        @include heading-font;
+    }
+    :-moz-placeholder {
+        font-weight: 700;
+        color: $gray-400;
+        @include heading-font;
+    }
+    ::-moz-placeholder {
+        font-weight: 700;
+        color: $gray-400;
+        @include heading-font;
+    }
+    :-ms-input-placeholder {
+        font-weight: 700;
+        color: $gray-400;
+        @include heading-font;
     }
 }

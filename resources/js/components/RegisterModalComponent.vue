@@ -13,7 +13,7 @@
                     <div class="md-form mb-5">
                         <i class="fas fa-user prefix grey-text"></i>
                         <input type="text" id="orangeForm-name" class="form-control validate">
-                        <label data-error="wrong" data-success="right" for="orangeForm-name">Imię</label>
+                        <label data-error="wrong" data-success="right" for="orangeForm-name">Login</label>
                     </div>
                     <div class="md-form mb-5">
                         <i class="fas fa-envelope prefix grey-text"></i>

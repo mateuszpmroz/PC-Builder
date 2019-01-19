@@ -20,6 +20,7 @@
         <category-component></category-component>
         <customize-component></customize-component>
         <login-modal-component></login-modal-component>
+        <contact-component></contact-component>
         <footer-component></footer-component>
     </div>
     <script src="{{ asset ('js/app.js') }}"></script>
