@@ -24,6 +24,7 @@
         "vue-template-compiler": "^2.5.21"
     },
     "dependencies": {
-        "bootstrap-vue": "^2.0.0-rc.11"
+        "startbootstrap-agency": "^5.0.4",
+        "vue-jquery": "^1.0.6"
     }
 }
