@@ -438,7 +438,6 @@ ul.social-buttons li a:hover {
 }
 
 .contact {
-  height: 100vh;
   background-color: #212529;
   background-image: url(/images/contact.jpg?0e4363c8ad9e8da06d0e9cb9d1c16937);
   background-repeat: no-repeat;
@@ -493,5 +492,26 @@ ul.social-buttons li a:hover {
   font-weight: 700;
   color: #ced4da;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.team-member {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.team-member img {
+  width: 225px;
+  height: 225px;
+  border: 7px solid #fff;
+}
+
+.team-member h4 {
+  margin-top: 25px;
+  margin-bottom: 0;
+  text-transform: none;
+}
+
+.team-member p {
+  margin-top: 0;
 }
 

@@ -16,7 +16,7 @@
                             <a class="nav-link js-scroll-trigger" href="#customize">DOSTOSUJ</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#about">O NAS</a>
+                            <a class="nav-link js-scroll-trigger" href="#team">O NAS</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link js-scroll-trigger" href="#contact">KONTAKT</a>

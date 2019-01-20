@@ -436,7 +436,6 @@ ul.social-buttons {
 
 // Styling for the contact section
 .contact {
-    height: 100vh;
     background-color: $gray-900;
     background-image: url('../img/contact.jpg');
     background-repeat: no-repeat;
@@ -480,5 +479,24 @@ ul.social-buttons {
         font-weight: 700;
         color: $gray-400;
         @include heading-font;
+    }
+}
+
+// Styling for the AboutUs section
+.team-member {
+    margin-bottom: 50px;
+    text-align: center;
+    img {
+        width: 225px;
+        height: 225px;
+        border: 7px solid $white;
+    }
+    h4 {
+        margin-top: 25px;
+        margin-bottom: 0;
+        text-transform: none;
+    }
+    p {
+        margin-top: 0;
     }
 }
