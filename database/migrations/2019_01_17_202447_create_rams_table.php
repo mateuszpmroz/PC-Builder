@@ -29,6 +29,6 @@ class CreateRamsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('ramsZ');
+        Schema::dropIfExists('rams');
     }
 }

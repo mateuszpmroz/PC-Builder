@@ -10,18 +10,9 @@
         <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-        <title>PC Builder</title>
+        <title>PC Builder - @yield('title')</title>
     </head>
     <body>
-    <div id="app">
-        <navbar></navbar>
-        <header-component></header-component>
-        <register-modal-component></register-modal-component>
-        <category-component></category-component>
-        <customize-component></customize-component>
-        <login-modal-component></login-modal-component>
-        <footer-component></footer-component>
-    </div>
-    <script src="{{ asset ('js/app.js') }}"></script>
+    @yield('content')
     </body>
 </html>

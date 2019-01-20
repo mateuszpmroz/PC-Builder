@@ -37,7 +37,7 @@ class CreateSetupsTable extends Migration
      */
     public function down()
     {
-        Schema::table('setup', function (Blueprint $table) {
+        Schema::table('setups', function (Blueprint $table) {
             $table->dropForeign('setups_user_id_foreign');
             $table->dropForeign('setups_ram_id_foreign');
             $table->dropForeign('setups_processor_id_foreign');
