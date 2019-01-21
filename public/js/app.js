@@ -6200,7 +6200,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -37695,7 +37695,7 @@ var staticRenderFns = [
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "row text-center customize" }, [
-            _c("div", { staticClass: "col-md-3 customize-item" }, [
+            _c("div", { staticClass: "col-md-3" }, [
               _c(
                 "a",
                 {
@@ -37703,12 +37703,6 @@ var staticRenderFns = [
                   attrs: { "data-toggle": "modal", href: "#customizeModal" }
                 },
                 [
-                  _c("div", { staticClass: "customize-hover" }, [
-                    _c("div", { staticClass: "customize-hover-content" }, [
-                      _c("i", { staticClass: "fas fa-plus fa-3x" })
-                    ])
-                  ]),
-                  _vm._v(" "),
                   _c("span", { staticClass: "fa-stack fa-4x" }, [
                     _c("i", {
                       staticClass: "fas fa-circle fa-stack-2x text-primary"
@@ -37732,7 +37726,7 @@ var staticRenderFns = [
               ])
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "col-md-3 customize-item" }, [
+            _c("div", { staticClass: "col-md-3" }, [
               _c(
                 "a",
                 {
@@ -37740,12 +37734,6 @@ var staticRenderFns = [
                   attrs: { "data-toggle": "modal", href: "#customizeModal" }
                 },
                 [
-                  _c("div", { staticClass: "customize-hover" }, [
-                    _c("div", { staticClass: "customize-hover-content" }, [
-                      _c("i", { staticClass: "fas fa-plus fa-3x" })
-                    ])
-                  ]),
-                  _vm._v(" "),
                   _c("span", { staticClass: "fa-stack fa-4x" }, [
                     _c("i", {
                       staticClass: "fas fa-circle fa-stack-2x text-primary"
@@ -37769,7 +37757,7 @@ var staticRenderFns = [
               ])
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "col-md-3 customize-item" }, [
+            _c("div", { staticClass: "col-md-3" }, [
               _c(
                 "a",
                 {
@@ -37777,12 +37765,6 @@ var staticRenderFns = [
                   attrs: { "data-toggle": "modal", href: "#customizeModal" }
                 },
                 [
-                  _c("div", { staticClass: "customize-hover" }, [
-                    _c("div", { staticClass: "customize-hover-content" }, [
-                      _c("i", { staticClass: "fas fa-plus fa-3x" })
-                    ])
-                  ]),
-                  _vm._v(" "),
                   _c("span", { staticClass: "fa-stack fa-4x" }, [
                     _c("i", {
                       staticClass: "fas fa-circle fa-stack-2x text-primary"
@@ -37806,7 +37788,7 @@ var staticRenderFns = [
               ])
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "col-md-3 customize-item" }, [
+            _c("div", { staticClass: "col-md-3" }, [
               _c(
                 "a",
                 {
@@ -37814,12 +37796,6 @@ var staticRenderFns = [
                   attrs: { "data-toggle": "modal", href: "#customizeModal" }
                 },
                 [
-                  _c("div", { staticClass: "customize-hover" }, [
-                    _c("div", { staticClass: "customize-hover-content" }, [
-                      _c("i", { staticClass: "fas fa-plus fa-3x" })
-                    ])
-                  ]),
-                  _vm._v(" "),
                   _c("span", { staticClass: "fa-stack fa-4x" }, [
                     _c("i", {
                       staticClass: "fas fa-circle fa-stack-2x text-primary"
