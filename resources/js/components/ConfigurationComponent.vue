@@ -7,36 +7,64 @@
                     <h3 class="section-subheading text-muted"></h3>
                 </div>
             </div>
-            <div class="row text-center">
-                <div class="col-md-3">
+            <div class="row text-center customize">
+                <div class="col-md-3 customize-item">
+                    <a class="customize-link" data-toggle="modal" href="#customizeModal">
+                        <div class="customize-hover">
+                            <div class="customize-hover-content">
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
                     <span class="fa-stack fa-4x">
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
               <i class="fas fa-gamepad fa-stack-1x fa-inverse"></i>
             </span>
+                    </a>
                     <h4 class="service-heading">DLA GRACZA</h4>
                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 customize-item">
+                    <a class="customize-link" data-toggle="modal" href="#customizeModal">
+                        <div class="customize-hover">
+                            <div class="customize-hover-content">
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
             <span class="fa-stack fa-4x">
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
               <i class="fas fa-paint-brush fa-stack-1x fa-inverse"></i>
             </span>
+                    </a>
                     <h4 class="service-heading">DLA GRAFIKA</h4>
                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 customize-item">
+                    <a class="customize-link" data-toggle="modal" href="#customizeModal">
+                        <div class="customize-hover">
+                            <div class="customize-hover-content">
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
             <span class="fa-stack fa-4x">
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
               <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
             </span>
+                    </a>
                     <h4 class="service-heading">DLA BIURA</h4>
                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 customize-item">
+                    <a class="customize-link" data-toggle="modal" href="#customizeModal">
+                        <div class="customize-hover">
+                            <div class="customize-hover-content">
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
             <span class="fa-stack fa-4x">
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
               <i class="fas fa-home fa-stack-1x fa-inverse"></i>
             </span>
+                    </a>
                     <h4 class="service-heading">DLA DOMU</h4>
                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>

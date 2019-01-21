@@ -19,6 +19,7 @@
         <register-modal-component></register-modal-component>
         <category-component></category-component>
         <customize-component></customize-component>
+        <customize-modal-component></customize-modal-component>
         <login-modal-component></login-modal-component>
         <aboutus-component></aboutus-component>
         <contact-component></contact-component>
