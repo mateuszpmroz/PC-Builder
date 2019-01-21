@@ -16,7 +16,7 @@
                             <a class="nav-link js-scroll-trigger" href="#customize">DOSTOSUJ</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#about">O NAS</a>
+                            <a class="nav-link js-scroll-trigger" href="#team">O NAS</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link js-scroll-trigger" href="#contact">KONTAKT</a>
@@ -56,7 +56,7 @@
         mounted() {
             const nav = this.$refs.mainNav;
             window.onscroll = function () {
-                if (window.pageYOffset > 200) {
+                if (window.pageYOffset > 150) {
                     nav.style.background = "#000";
                 } else {
                     nav.style.background = "transparent";

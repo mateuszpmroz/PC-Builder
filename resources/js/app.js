@@ -29,6 +29,8 @@ Vue.component('customize-component', require('./components/CustomizeComponent.vu
 Vue.component('login-modal-component', require('./components/LoginModalComponent.vue').default);
 Vue.component('footer-component', require('./components/FooterComponent.vue').default);
 Vue.component('register-modal-component', require('./components/RegisterModalComponent.vue').default);
+Vue.component('contact-component', require('./components/ContactComponent.vue').default);
+Vue.component('aboutus-component', require('./components/AboutUsComponent.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

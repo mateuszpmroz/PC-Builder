@@ -14,6 +14,8 @@
         <register-modal-component></register-modal-component>
         <category-component></category-component>
         <customize-component></customize-component>
+        <aboutus-component></aboutus-component>
+        <contact-component></contact-component>
         <login-modal-component csrf="{{ csrf_token() }}" login="{{ route('login') }}"></login-modal-component>
         <footer-component></footer-component>
     </div>
