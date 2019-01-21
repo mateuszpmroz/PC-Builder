@@ -189,7 +189,7 @@ header.masthead {
   height: 100vh;
   text-align: center;
   color: white;
-  background-image: url("https://www.corsair.com/corsairmedia/sys_master/productcontent/builditbeautiful-pl-Content-1.png");
+  background-image: url(/images/top_page_image.png?72d01cf60a44da448935892526a107d5);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;

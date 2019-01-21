@@ -37543,7 +37543,7 @@ var staticRenderFns = [
                 attrs: { src: __webpack_require__(/*! ../../img/Marcin_Dymek.jpg */ "./resources/img/Marcin_Dymek.jpg"), alt: "" }
               }),
               _vm._v(" "),
-              _c("h4", [_vm._v("Diana Pertersen")]),
+              _c("h4", [_vm._v("Marcin Dymek")]),
               _vm._v(" "),
               _c("p", { staticClass: "text-muted" }, [
                 _vm._v("Frontend Developer & Graphic Designer")
@@ -37761,12 +37761,12 @@ var staticRenderFns = [
                     _c("input", {
                       staticClass: "form-control",
                       attrs: {
-                        id: "name",
-                        type: "text",
-                        placeholder: "Twój login *",
+                        id: "email",
+                        type: "email",
+                        placeholder: "Your Email *",
                         required: "required",
                         "data-validation-required-message":
-                          "Proszę podaj swój login"
+                          "Proszę podać swój adres email"
                       }
                     }),
                     _vm._v(" "),

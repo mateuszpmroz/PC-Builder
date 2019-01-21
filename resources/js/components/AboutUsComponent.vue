@@ -25,7 +25,7 @@
                 <div class="col-sm-4">
                     <div class="team-member">
                         <img class="mx-auto rounded-circle" src="../../img/Marcin_Dymek.jpg" alt="">
-                        <h4>Diana Pertersen</h4>
+                        <h4>Marcin Dymek</h4>
                         <p class="text-muted">Frontend Developer & Graphic Designer</p>
                     </div>
                 </div>
