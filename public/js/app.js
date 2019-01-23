@@ -1785,6 +1785,13 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "CustomizeModalComponent"
 });
@@ -6238,7 +6245,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -38099,7 +38106,7 @@ var staticRenderFns = [
                     staticClass: "modal-title",
                     attrs: { id: "exampleModalLabel" }
                   },
-                  [_vm._v("Modal title")]
+                  [_vm._v("DOSTOSUJ POD GRĘ")]
                 ),
                 _vm._v(" "),
                 _c(
@@ -38120,7 +38127,39 @@ var staticRenderFns = [
                 )
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "modal-body" }),
+              _c("div", { staticClass: "modal-body" }, [
+                _c(
+                  "select",
+                  {
+                    staticClass:
+                      "mdb-select md-form colorful-select dropdown-primary",
+                    attrs: { multiple: "", searchable: "Szukaj" }
+                  },
+                  [
+                    _c(
+                      "option",
+                      { attrs: { value: "", disabled: "", selected: "" } },
+                      [_vm._v("Wybierz grę z listy")]
+                    ),
+                    _vm._v(" "),
+                    _c("option", { attrs: { value: "1" } }, [
+                      _vm._v("Witcher 3")
+                    ]),
+                    _vm._v(" "),
+                    _c("option", { attrs: { value: "2" } }, [_vm._v("CS GO")]),
+                    _vm._v(" "),
+                    _c("option", { attrs: { value: "3" } }, [
+                      _vm._v("Call Of Duty Black OPS 4")
+                    ]),
+                    _vm._v(" "),
+                    _c("option", { attrs: { value: "4" } }, [
+                      _vm._v("Fortnite")
+                    ]),
+                    _vm._v(" "),
+                    _c("option", { attrs: { value: "5" } }, [_vm._v("Prey")])
+                  ]
+                )
+              ]),
               _vm._v(" "),
               _c("div", { staticClass: "modal-footer" }, [
                 _c(
@@ -38129,13 +38168,13 @@ var staticRenderFns = [
                     staticClass: "btn btn-secondary",
                     attrs: { type: "button", "data-dismiss": "modal" }
                   },
-                  [_vm._v("Close")]
+                  [_vm._v("Zamknij")]
                 ),
                 _vm._v(" "),
                 _c(
                   "button",
                   { staticClass: "btn btn-primary", attrs: { type: "button" } },
-                  [_vm._v("Save changes")]
+                  [_vm._v("Wybierz")]
                 )
               ])
             ])
