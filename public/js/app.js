@@ -38335,12 +38335,6 @@ var render = function() {
                       _vm._v(" "),
                       _vm._m(1),
                       _vm._v(" "),
-                      _c("h2", { staticClass: "text-uppercase" }, [
-                        _vm._v("Wybierz grę")
-                      ]),
-                      _vm._v(" "),
-                      _c("product-slider-component"),
-                      _vm._v(" "),
                       _c(
                         "button",
                         {
@@ -38348,7 +38342,13 @@ var render = function() {
                           attrs: { type: "submit" }
                         },
                         [_vm._v("WYBIERZ")]
-                      )
+                      ),
+                      _vm._v(" "),
+                      _c("h2", { staticClass: "text-uppercase" }, [
+                        _vm._v("Wybierz grę")
+                      ]),
+                      _vm._v(" "),
+                      _c("product-slider-component")
                     ],
                     1
                   )
@@ -38387,12 +38387,6 @@ var render = function() {
                       _vm._v(" "),
                       _vm._m(3),
                       _vm._v(" "),
-                      _c("h2", { staticClass: "text-uppercase" }, [
-                        _vm._v("Wybierz PROGRAM")
-                      ]),
-                      _vm._v(" "),
-                      _c("product-slider-component"),
-                      _vm._v(" "),
                       _c(
                         "button",
                         {
@@ -38400,7 +38394,13 @@ var render = function() {
                           attrs: { type: "submit" }
                         },
                         [_vm._v("WYBIERZ")]
-                      )
+                      ),
+                      _vm._v(" "),
+                      _c("h2", { staticClass: "text-uppercase" }, [
+                        _vm._v("Wybierz PROGRAM")
+                      ]),
+                      _vm._v(" "),
+                      _c("product-slider-component")
                     ],
                     1
                   )

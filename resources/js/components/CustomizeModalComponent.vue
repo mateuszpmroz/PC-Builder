@@ -22,9 +22,9 @@
                                         </div>
                                     </div>
                                 </div>
+                                <button class="btn btn-primary" type="submit">WYBIERZ</button>
                                 <h2 class="text-uppercase">Wybierz grę</h2>
                                 <product-slider-component></product-slider-component>
-                                <button class="btn btn-primary" type="submit">WYBIERZ</button>
                             </div>
                         </div>
                     </div>
@@ -54,9 +54,9 @@
                                         </div>
                                     </div>
                                 </div>
+                                <button class="btn btn-primary" type="submit">WYBIERZ</button>
                                 <h2 class="text-uppercase">Wybierz PROGRAM</h2>
                                 <product-slider-component></product-slider-component>
-                                <button class="btn btn-primary" type="submit">WYBIERZ</button>
                             </div>
                         </div>
                     </div>
