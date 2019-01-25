@@ -13,8 +13,7 @@
                     <div class="col-lg-12">
                         <form id="contactForm" name="sentMessage" novalidate="novalidate">
                             <div class="form-group">
-                                <input class="form-control" id="name" type="text" placeholder="Twój login *"
-                                       required="required" data-validation-required-message="Proszę podaj swój login">
+                                <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Proszę podać swój adres email">
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="form-group">
