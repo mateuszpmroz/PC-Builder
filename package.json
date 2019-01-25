@@ -25,6 +25,7 @@
     },
     "dependencies": {
         "startbootstrap-agency": "^5.0.4",
-        "vue-jquery": "^1.0.6"
+        "vue-jquery": "^1.0.6",
+        "vuetify": "^1.4.3"
     }
 }

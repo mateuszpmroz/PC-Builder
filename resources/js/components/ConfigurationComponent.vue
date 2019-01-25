@@ -16,7 +16,6 @@
             </span>
                     </a>
                     <h4 class="service-heading">DLA GRACZA</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
                 <div class="col-md-3">
                     <a class="customize-link" data-toggle="modal" href="#configurationModal2">
@@ -26,7 +25,6 @@
             </span>
                     </a>
                     <h4 class="service-heading">DLA GRAFIKA</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
                 <div class="col-md-3">
                     <a class="customize-link" data-toggle="modal" href="#configurationModal3">
@@ -36,7 +34,6 @@
             </span>
                     </a>
                     <h4 class="service-heading">DLA BIURA</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
                 <div class="col-md-3">
                     <a class="customize-link" data-toggle="modal" href="#configurationModal4">
@@ -46,7 +43,6 @@
             </span>
                     </a>
                     <h4 class="service-heading">DLA DOMU</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
             </div>
         </div>
