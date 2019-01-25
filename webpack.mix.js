@@ -15,3 +15,4 @@ mix.js('resources/js/app.js', 'public/js')
    .sass('resources/sass/app.scss', 'public/css');
 mix.js('resources/js/Backend/Users/editModal.js', 'public/js/Backend/Users/users.js');
 mix.js('resources/js/Backend/Components/editModal.js', 'public/js/Backend/Components/components.js');
+mix.js('resources/js/Backend/Applications/editModal.js', 'public/js/Backend/Applications/applications.js');

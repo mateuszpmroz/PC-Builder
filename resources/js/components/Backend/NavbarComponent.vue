@@ -15,6 +15,9 @@
                         <li class="nav-item">
                             <a class="nav-link js-scroll-trigger" href="/backend/components">KOMPONENTY</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="/backend/applications">APLIKACJE</a>
+                        </li>
                         <li class="nav-item"  v-if="user == undefined">
                             <a class="nav-link js-scroll-trigger" href="#login" data-toggle="modal" data-target="#modalLoginForm">LOGIN</a>
                         </li>
