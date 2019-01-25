@@ -30,5 +30,10 @@ Route::middleware(['auth', 'admin'])->group(function () {
         Route::post('component/store', 'Backend\ComponentController@store')->name('backend.component.store');
         Route::post('component/delete/{id}', 'Backend\ComponentController@destroy')->name('backend.component.delete');
         Route::post('component/update/{id}', 'Backend\ComponentController@update')->name('backend.component.update');
+        //applcations
+        Route::get('applications', 'Backend\ApplicationController@index')->name('backend.applications');
+        Route::post('application/store', 'Backend\ApplicationController@store')->name('backend.application.store');
+        Route::post('application/delete/{id}', 'Backend\ApplicationController@destroy')->name('backend.application.delete');
+        Route::post('application/update/{id}', 'Backend\ApplicationController@update')->name('backend.application.update');
     });
 });

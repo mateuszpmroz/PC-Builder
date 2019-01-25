@@ -238,6 +238,11 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
+.image--max--values--backend {
+  max-width: 100px;
+  max-height: 100px;
+}
+
 .customize .customize-item {
   right: 0;
   margin: 0 0 15px;
