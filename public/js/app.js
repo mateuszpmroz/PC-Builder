@@ -37748,7 +37748,7 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("h3", { staticClass: "section-subheading text-muted" }, [
               _vm._v(
-                "Jesteśmy trójką sutudentów na Polsko-Japońskiej Akademii Technik Komputerowych w Gdańsku. Projekt został przygotowany jako zaliczenie przedmiotu."
+                "Jesteśmy trójką studentów na Polsko-Japońskiej Akademii Technik Komputerowych w Gdańsku. Projekt został przygotowany jako zaliczenie przedmiotu."
               )
             ])
           ])
@@ -37759,7 +37759,7 @@ var staticRenderFns = [
             _c("div", { staticClass: "team-member" }, [
               _c("img", {
                 staticClass: "mx-auto rounded-circle",
-                attrs: { src: __webpack_require__(/*! ../../img/Mateusz_Mroz.jpg */ "./resources/img/Mateusz_Mroz.jpg"), alt: "" }
+                attrs: { src: __webpack_require__(/*! ../../img/Mateusz_Mróz.jpg */ "./resources/img/Mateusz_Mróz.jpg"), alt: "" }
               }),
               _vm._v(" "),
               _c("h4", [_vm._v("Mateusz Mróz")]),
@@ -50478,14 +50478,14 @@ module.exports = "/images/Marcin_Dymek.jpg?a4000ed386b1f6f8df13f250cf9a590a";
 
 /***/ }),
 
-/***/ "./resources/img/Mateusz_Mroz.jpg":
+/***/ "./resources/img/Mateusz_Mróz.jpg":
 /*!****************************************!*\
-  !*** ./resources/img/Mateusz_Mroz.jpg ***!
+  !*** ./resources/img/Mateusz_Mróz.jpg ***!
   \****************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed (from ./node_modules/img-loader/index.js):\nError: ENOENT: no such file or directory, open 'C:\\xampp\\htdocs\\pc_builder\\resources\\img\\Mateusz_Mroz.jpg'");
+module.exports = "/images/Mateusz_Mróz.jpg?7ecebcf191fb519f61550d3be6637a80";
 
 /***/ }),
 

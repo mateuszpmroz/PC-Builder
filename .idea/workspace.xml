@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccf517b6-39c9-4deb-996b-63149eb76825" name="Default Changelist" comment="add new components and create sass file">
-      <change afterPath="$PROJECT_DIR$/public/images/Dawid_Berk.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/Marcin_Dymek.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/Mateusz_Mróz.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/top_page_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/img/Dawid_Berk.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/img/Marcin_Dymek.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/img/Mateusz_Mróz.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/img/top_page_image.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/AboutUsComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/AboutUsComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/ConfigurationComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/ConfigurationComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/ContactComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/ContactComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/CustomizeModalComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/CustomizeModalComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/_custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_custom.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Frontend/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Frontend/index.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,14 +41,14 @@
           <entry key="gitignore" value="1" />
           <entry key="htaccess" value="1" />
           <entry key="jpg" value="2" />
-          <entry key="js" value="18" />
+          <entry key="js" value="19" />
           <entry key="json" value="3" />
           <entry key="key" value="1" />
           <entry key="lock" value="1" />
           <entry key="php" value="107" />
           <entry key="scss" value="3" />
           <entry key="stub" value="1" />
-          <entry key="vue" value="22" />
+          <entry key="vue" value="23" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
@@ -73,11 +58,11 @@
           <entry key="CSS" value="2" />
           <entry key="Image" value="2" />
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="18" />
+          <entry key="JavaScript" value="19" />
           <entry key="PHP" value="73" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="SCSS" value="3" />
-          <entry key="Vue.js" value="22" />
+          <entry key="Vue.js" value="23" />
           <entry key="XML" value="1" />
           <entry key="htaccess" value="1" />
           <entry key="yarn.lock" value="1" />
@@ -91,7 +76,7 @@
           <entry key="json" value="22" />
           <entry key="php" value="3580" />
           <entry key="scss" value="9" />
-          <entry key="vue" value="558" />
+          <entry key="vue" value="569" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -102,7 +87,7 @@
           <entry key="PHP" value="2269" />
           <entry key="PLAIN_TEXT" value="74" />
           <entry key="SCSS" value="9" />
-          <entry key="Vue.js" value="558" />
+          <entry key="Vue.js" value="569" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -122,7 +107,7 @@
             <entry file="file://$PROJECT_DIR$/resources/views/Backend/home.blade.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="272">
-                  <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+                  <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
                 </state>
               </provider>
             </entry>
@@ -136,11 +121,32 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/views/Frontend/index.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+                <state relative-caret-position="153">
+                  <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/resources/js/components/AboutUsComponent.vue">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="102">
+                  <caret line="6" column="87" selection-start-line="6" selection-start-column="87" selection-end-line="6" selection-end-column="87" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/js/app.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="17">
+                  <caret line="37750" column="43" selection-start-line="37750" selection-start-column="33" selection-end-line="37750" selection-end-column="43" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -176,15 +182,6 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/mix-manifest.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="34">
-                  <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/sass/_custom.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="141">
@@ -198,15 +195,6 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="204">
                   <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/Component.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
                 </state>
               </provider>
             </entry>
@@ -255,9 +243,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Frontend.index</find>
-      <find>csrf</find>
-      <find>login</find>
       <find>auth.login</find>
       <find>class Authenticate extends Middleware</find>
       <find>var_dump('d</find>
@@ -285,6 +270,9 @@
       <find>transparent</find>
       <find>daw</find>
       <find>$componentNameModal</find>
+      <find>Mateusz</find>
+      <find>Mateusz_Mroz</find>
+      <find>sutudentów</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/resources/img</dir>
@@ -301,7 +289,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/js/agency.min.js" />
         <option value="$PROJECT_DIR$/resources/js/agency.min.js" />
         <option value="$PROJECT_DIR$/resources/js/components/FooterComponent.vue" />
         <option value="$PROJECT_DIR$/resources/js/components/ModalComponent.vue" />
@@ -352,6 +339,7 @@
         <option value="$PROJECT_DIR$/resources/js/components/Backend/NavbarComponent.vue" />
         <option value="$PROJECT_DIR$/resources/js/Backend/Components/editModal.js" />
         <option value="$PROJECT_DIR$/resources/views/Frontend/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/js/components/AboutUsComponent.vue" />
       </list>
     </option>
   </component>
@@ -757,7 +745,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164613000" />
+    <option name="totallyTimeSpent" value="164906000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -772,7 +760,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.62103176" visible="true" weight="0.18255034" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.62103176" visible="true" weight="0.18255034" />
       <window_info id="Structure" order="1" sideWeight="0.37896827" side_tool="true" visible="true" weight="0.18255034" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -784,7 +772,7 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4996288" weight="0.3297587" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49665925" visible="true" weight="0.2851064" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.49665925" visible="true" weight="0.2851064" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.6161841" weight="0.3297587" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.38381588" side_tool="true" weight="0.3297587" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
@@ -856,23 +844,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/Backend/Users/users.js" />
     <entry file="file://$PROJECT_DIR$/public/.htaccess">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/AboutUsComponent.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-340" />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/app.css">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1069,7 +1043,7 @@
     <entry file="file://$PROJECT_DIR$/resources/views/Backend/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1082,8 +1056,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/Frontend/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+        <state relative-caret-position="153">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="37750" column="43" selection-start-line="37750" selection-start-column="33" selection-end-line="37750" selection-end-column="43" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/AboutUsComponent.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="87" selection-start-line="6" selection-start-column="87" selection-end-line="6" selection-end-column="87" />
         </state>
       </provider>
     </entry>
