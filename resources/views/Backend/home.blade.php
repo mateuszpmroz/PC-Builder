@@ -10,9 +10,13 @@
         <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-        <title>PC Builder - @yield('title')</title>
+        <title>PC Builder Backend - @yield('title')</title>
     </head>
     <body>
+    <div id="app">
+        <backend-navbar :user="{{ json_encode($authUser) }}" logout="{{ route('logout') }}"></backend-navbar>
+    </div>
+    <script src="{{ asset ('js/app.js') }}"></script>
     @yield('content')
     </body>
 </html>

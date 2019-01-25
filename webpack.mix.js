@@ -13,3 +13,5 @@ const mix = require('laravel-mix');
 
 mix.js('resources/js/app.js', 'public/js')
    .sass('resources/sass/app.scss', 'public/css');
+mix.js('resources/js/Backend/Users/editModal.js', 'public/js/Backend/Users/users.js');
+mix.js('resources/js/Backend/Components/editModal.js', 'public/js/Backend/Components/components.js');

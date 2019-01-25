@@ -10,7 +10,7 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="../../img/Mateusz_Mróz.jpg" alt="">
+                        <img class="mx-auto rounded-circle" src="../../img/Mateusz_Mroz.jpg" alt="">
                         <h4>Mateusz Mróz</h4>
                         <p class="text-muted">Fullstack Developer</p>
                     </div>

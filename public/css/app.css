@@ -156,7 +156,7 @@ img::-moz-selection {
     padding-bottom: 25px;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: transparent;
+    background-color: black;
   }
 
   .main-nav .navbar-brand {

@@ -20,8 +20,15 @@ Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
 Route::middleware(['auth', 'admin'])->group(function () {
     Route::prefix('backend')->group(function () {
         Route::get('/', 'Backend\BackendController@index');
-        Route::get('user', function () {
-            // Matches The "/admin/users" URL
-        });
+        //users
+        Route::get('users', 'Backend\UserController@index')->name('backend.users');
+        Route::post('user/store', 'Backend\UserController@store')->name('backend.user.store');
+        Route::post('user/delete/{id}', 'Backend\UserController@destroy')->name('backend.user.delete');
+        Route::post('user/update/{id}', 'Backend\UserController@update')->name('backend.user.update');
+        //components
+        Route::get('components', 'Backend\ComponentController@index')->name('backend.components');
+        Route::post('component/store', 'Backend\ComponentController@store')->name('backend.component.store');
+        Route::post('component/delete/{id}', 'Backend\ComponentController@destroy')->name('backend.component.delete');
+        Route::post('component/update/{id}', 'Backend\ComponentController@update')->name('backend.component.update');
     });
 });

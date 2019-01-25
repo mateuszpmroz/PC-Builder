@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateGraphicsTable extends Migration
+class CreateComponentsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,8 +13,9 @@ class CreateGraphicsTable extends Migration
      */
     public function up()
     {
-        Schema::create('graphics', function (Blueprint $table) {
+        Schema::create('components', function (Blueprint $table) {
             $table->increments('id');
+            $table->tinyInteger('type');
             $table->string('name');
             $table->integer('points');
             $table->integer('price');
@@ -29,6 +30,6 @@ class CreateGraphicsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('graphics');
+        Schema::dropIfExists('components');
     }
 }

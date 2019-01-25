@@ -31,6 +31,8 @@ Vue.component('footer-component', require('./components/FooterComponent.vue').de
 Vue.component('register-modal-component', require('./components/RegisterModalComponent.vue').default);
 Vue.component('contact-component', require('./components/ContactComponent.vue').default);
 Vue.component('aboutus-component', require('./components/AboutUsComponent.vue').default);
+//Backend components
+Vue.component('backend-navbar', require('./components/Backend/NavbarComponent.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

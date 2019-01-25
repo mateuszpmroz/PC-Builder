@@ -17,7 +17,7 @@ class CreateApplicationsTable extends Migration
             $table->increments('id');
             $table->integer('graphic_points');
             $table->integer('processor_points');
-            $table->integer('ram_size');
+            $table->integer('ram_points');
             $table->timestamps();
         });
     }

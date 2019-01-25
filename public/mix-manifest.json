@@ -1,4 +1,6 @@
 {
+    "/js/Backend/Components/components.js": "/js/Backend/Components/components.js",
+    "/js/Backend/Users/users.js": "/js/Backend/Users/users.js",
     "/js/app.js": "/js/app.js",
     "/css/app.css": "/css/app.css"
 }
