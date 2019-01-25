@@ -33,6 +33,7 @@ Vue.component('register-modal-component', require('./components/RegisterModalCom
 Vue.component('contact-component', require('./components/ContactComponent.vue').default);
 Vue.component('aboutus-component', require('./components/AboutUsComponent.vue').default);
 Vue.component('customize-modal-component', require('./components/CustomizeModalComponent.vue').default);
+Vue.component('product-slider-component', require('./components/ProductSliderComponent.vue').default);
 
 
 /**
