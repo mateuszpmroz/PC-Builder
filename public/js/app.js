@@ -1808,7 +1808,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ['user', 'logout']
 });
@@ -1886,6 +1885,12 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -37914,18 +37919,9 @@ var render = function() {
                               "a",
                               {
                                 staticClass: "dropdown-item",
-                                attrs: { href: "#" }
+                                attrs: { href: "/" }
                               },
-                              [_vm._v("Action")]
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "a",
-                              {
-                                staticClass: "dropdown-item",
-                                attrs: { href: "#" }
-                              },
-                              [_vm._v("Another action")]
+                              [_vm._v("Przejdź na Frontend")]
                             ),
                             _vm._v(" "),
                             _c(
@@ -38746,46 +38742,30 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "modal-body mx-3" }, [
-      _c("div", { staticClass: "md-form mb-5" }, [
-        _c("i", { staticClass: "fas fa-envelope prefix grey-text" }),
+      _c("div", { staticClass: "md-form mb-2 input-group" }, [
+        _c("div", { staticClass: "input-group-prepend" }, [
+          _c("span", { staticClass: "input-group-text" }, [
+            _c("i", { staticClass: "fas fa-envelope prefix grey-text" })
+          ])
+        ]),
         _vm._v(" "),
         _c("input", {
           staticClass: "form-control validate",
           attrs: { type: "email", id: "defaultForm-email", name: "email" }
-        }),
-        _vm._v(" "),
-        _c(
-          "label",
-          {
-            attrs: {
-              "data-error": "wrong",
-              "data-success": "right",
-              for: "defaultForm-email"
-            }
-          },
-          [_vm._v("Email")]
-        )
+        })
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "md-form mb-4" }, [
-        _c("i", { staticClass: "fas fa-lock prefix grey-text" }),
+      _c("div", { staticClass: "md-form mb-2 input-group" }, [
+        _c("div", { staticClass: "input-group-prepend" }, [
+          _c("span", { staticClass: "input-group-text" }, [
+            _c("i", { staticClass: "fas fa-lock prefix grey-text" })
+          ])
+        ]),
         _vm._v(" "),
         _c("input", {
           staticClass: "form-control validate",
           attrs: { type: "password", id: "defaultForm-pass", name: "password" }
-        }),
-        _vm._v(" "),
-        _c(
-          "label",
-          {
-            attrs: {
-              "data-error": "wrong",
-              "data-success": "right",
-              for: "defaultForm-pass"
-            }
-          },
-          [_vm._v("Hasło")]
-        )
+        })
       ])
     ])
   },
@@ -38910,7 +38890,7 @@ var render = function() {
                               "a",
                               {
                                 staticClass: "dropdown-item",
-                                attrs: { href: "#" }
+                                attrs: { href: "/setups" }
                               },
                               [_vm._v("Moje zestawy")]
                             ),
@@ -39108,67 +39088,45 @@ var staticRenderFns = [
               ]),
               _vm._v(" "),
               _c("div", { staticClass: "modal-body mx-3" }, [
-                _c("div", { staticClass: "md-form mb-5" }, [
-                  _c("i", { staticClass: "fas fa-user prefix grey-text" }),
+                _c("div", { staticClass: "md-form mb-2 input-group" }, [
+                  _c("div", { staticClass: "input-group-prepend" }, [
+                    _c("span", { staticClass: "input-group-text" }, [
+                      _c("i", { staticClass: "fas fa-user prefix grey-text" })
+                    ])
+                  ]),
                   _vm._v(" "),
                   _c("input", {
                     staticClass: "form-control validate",
                     attrs: { type: "text", id: "orangeForm-name" }
-                  }),
-                  _vm._v(" "),
-                  _c(
-                    "label",
-                    {
-                      attrs: {
-                        "data-error": "wrong",
-                        "data-success": "right",
-                        for: "orangeForm-name"
-                      }
-                    },
-                    [_vm._v("Login")]
-                  )
+                  })
                 ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "md-form mb-5" }, [
-                  _c("i", { staticClass: "fas fa-envelope prefix grey-text" }),
+                _c("div", { staticClass: "md-form mb-2 input-group" }, [
+                  _c("div", { staticClass: "input-group-prepend" }, [
+                    _c("span", { staticClass: "input-group-text" }, [
+                      _c("i", {
+                        staticClass: "fas fa-envelope prefix grey-text"
+                      })
+                    ])
+                  ]),
                   _vm._v(" "),
                   _c("input", {
                     staticClass: "form-control validate",
                     attrs: { type: "email", id: "orangeForm-email" }
-                  }),
-                  _vm._v(" "),
-                  _c(
-                    "label",
-                    {
-                      attrs: {
-                        "data-error": "wrong",
-                        "data-success": "right",
-                        for: "orangeForm-email"
-                      }
-                    },
-                    [_vm._v("Email")]
-                  )
+                  })
                 ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "md-form mb-4" }, [
-                  _c("i", { staticClass: "fas fa-lock prefix grey-text" }),
+                _c("div", { staticClass: "md-form mb-2 input-group" }, [
+                  _c("div", { staticClass: "input-group-prepend" }, [
+                    _c("span", { staticClass: "input-group-text" }, [
+                      _c("i", { staticClass: "fas fa-lock prefix grey-text" })
+                    ])
+                  ]),
                   _vm._v(" "),
                   _c("input", {
                     staticClass: "form-control validate",
                     attrs: { type: "password", id: "orangeForm-pass" }
-                  }),
-                  _vm._v(" "),
-                  _c(
-                    "label",
-                    {
-                      attrs: {
-                        "data-error": "wrong",
-                        "data-success": "right",
-                        for: "orangeForm-pass"
-                      }
-                    },
-                    [_vm._v("Hasło")]
-                  )
+                  })
                 ])
               ]),
               _vm._v(" "),

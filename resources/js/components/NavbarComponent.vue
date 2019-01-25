@@ -31,7 +31,7 @@
                                 </a>
 
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                    <a class="dropdown-item" href="#">Moje zestawy</a>
+                                    <a class="dropdown-item" href="/setups">Moje zestawy</a>
                                     <a class="dropdown-item" v-bind:href="logout">Wyloguj</a>
                                 </div>
                             </div>

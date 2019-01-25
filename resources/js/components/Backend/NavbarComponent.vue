@@ -25,8 +25,7 @@
                                 </a>
 
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="/">Przejdź na Frontend</a>
                                     <a class="dropdown-item" v-bind:href="logout">Wyloguj</a>
                                 </div>
                             </div>
