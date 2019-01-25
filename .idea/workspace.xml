@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccf517b6-39c9-4deb-996b-63149eb76825" name="Default Changelist" comment="add new components and create sass file">
-      <change beforePath="$PROJECT_DIR$/public/images/Dawid_Berk.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/Marcin_Dymek.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/Mateusz_Mroz.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/img/Dawid_Berk.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/img/Marcin_Dymek.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/img/Mateusz_Mroz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Backend/Components/editModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Backend/Components/editModal.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +74,7 @@
         <counts>
           <entry key="dummy" value="56" />
           <entry key="gitignore" value="18" />
-          <entry key="js" value="1380" />
+          <entry key="js" value="1382" />
           <entry key="json" value="22" />
           <entry key="php" value="3579" />
           <entry key="scss" value="9" />
@@ -87,7 +85,7 @@
         <counts>
           <entry key="Blade" value="1310" />
           <entry key="JSON" value="22" />
-          <entry key="JavaScript" value="1380" />
+          <entry key="JavaScript" value="1382" />
           <entry key="PHP" value="2269" />
           <entry key="PLAIN_TEXT" value="74" />
           <entry key="SCSS" value="9" />
@@ -107,11 +105,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5621572">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/js/components/Backend/NavbarComponent.vue">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="184">
-                  <caret line="41" column="11" lean-forward="true" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+                <state relative-caret-position="252">
+                  <caret line="45" column="8" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
                 </state>
               </provider>
             </entry>
@@ -173,11 +171,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/resources/js/Backend/Components/editModal.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+                <state relative-caret-position="255">
+                  <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
                 </state>
               </provider>
             </entry>
@@ -329,9 +327,9 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Backend/ComponentController.php" />
         <option value="$PROJECT_DIR$/app/Component.php" />
         <option value="$PROJECT_DIR$/resources/views/Backend/Components/index.blade.php" />
-        <option value="$PROJECT_DIR$/resources/js/Backend/Components/editModal.js" />
         <option value="$PROJECT_DIR$/resources/js/components/NavbarComponent.vue" />
         <option value="$PROJECT_DIR$/resources/js/components/Backend/NavbarComponent.vue" />
+        <option value="$PROJECT_DIR$/resources/js/Backend/Components/editModal.js" />
       </list>
     </option>
   </component>
@@ -730,7 +728,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164549000" />
+    <option name="totallyTimeSpent" value="164569000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -743,6 +741,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.62103176" visible="true" weight="0.18255034" />
       <window_info id="Structure" order="1" sideWeight="0.37896827" side_tool="true" visible="true" weight="0.18255034" />
@@ -851,15 +850,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/Backend/Users/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1615">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Backend/Users/users.js" />
     <entry file="file://$PROJECT_DIR$/public/.htaccess">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -895,22 +886,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_17_202346_create_graphics_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="33" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="20" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_17_202447_create_rams_table.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_17_202632_create_processors_table.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_17_202709_create_power_supplies_table.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_17_202346_create_graphics_table.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_17_202447_create_rams_table.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_17_202632_create_processors_table.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_17_202709_create_power_supplies_table.php" />
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_17_202857_create_users_table.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -924,28 +903,12 @@
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_17_203030_create_administrators_table.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Graphic.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/PowerSupply.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Processor.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Ram.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProcessorController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1074" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RamController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1074" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Graphic.php" />
+    <entry file="file://$PROJECT_DIR$/app/PowerSupply.php" />
+    <entry file="file://$PROJECT_DIR$/app/Processor.php" />
+    <entry file="file://$PROJECT_DIR$/app/Ram.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProcessorController.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RamController.php" />
     <entry file="file://$PROJECT_DIR$/app/Setup.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -956,9 +919,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ComponentController.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ComponentController.php" />
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_17_203430_create_setups_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -1067,13 +1028,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/Backend/Components/editModal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/_custom.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
@@ -1088,16 +1042,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/Dawid_Berk.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/img/Dawid_Berk.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/Dawid_Berk.jpg" />
+    <entry file="file://$PROJECT_DIR$/resources/img/Dawid_Berk.jpg" />
     <entry file="file://$PROJECT_DIR$/resources/js/components/Backend/NavbarComponent.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="41" column="11" lean-forward="true" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+        <state relative-caret-position="252">
+          <caret line="45" column="8" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/Backend/Components/editModal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>

@@ -26,7 +26,7 @@ const updateEditModalInputs = (editButton) => {
     const componentPoints = $tableRow.find('.points').html();
     const componentPrice = $tableRow.find('.price').html();
     const componentId = $tableRow.find('.id').html();
-    console.log(componentType);
+
     $editModal.find('input.name').val(componentName);
     $editModal.find('select.type').val(componentType);
     $editModal.find('input.points').val(componentPoints);
