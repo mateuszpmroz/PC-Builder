@@ -50240,7 +50240,7 @@ module.exports = function(module) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/images/Dawid_Berk.jpg?2142ba76fa56f8614f9b291226ab775c";
+throw new Error("Module build failed (from ./node_modules/img-loader/index.js):\nError: ENOENT: no such file or directory, open 'C:\\xampp\\htdocs\\pc_builder\\resources\\img\\Dawid_Berk.jpg'");
 
 /***/ }),
 
@@ -50251,7 +50251,7 @@ module.exports = "/images/Dawid_Berk.jpg?2142ba76fa56f8614f9b291226ab775c";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/images/Marcin_Dymek.jpg?2142ba76fa56f8614f9b291226ab775c";
+throw new Error("Module build failed (from ./node_modules/img-loader/index.js):\nError: ENOENT: no such file or directory, open 'C:\\xampp\\htdocs\\pc_builder\\resources\\img\\Marcin_Dymek.jpg'");
 
 /***/ }),
 
@@ -50262,7 +50262,7 @@ module.exports = "/images/Marcin_Dymek.jpg?2142ba76fa56f8614f9b291226ab775c";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/images/Mateusz_Mroz.jpg?2142ba76fa56f8614f9b291226ab775c";
+throw new Error("Module build failed (from ./node_modules/img-loader/index.js):\nError: ENOENT: no such file or directory, open 'C:\\xampp\\htdocs\\pc_builder\\resources\\img\\Mateusz_Mroz.jpg'");
 
 /***/ }),
 
