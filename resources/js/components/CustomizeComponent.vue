@@ -4,12 +4,11 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading text-uppercase">DOSTOSUJ</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-6 customize-item">
-                    <a class="customize-link" data-toggle="modal" href="/">
+                    <a class="customize-link" data-toggle="modal" href="#customizeModal1">
                         <div class="customize-hover">
                             <div class="customize-hover-content">
                                 <i class="fas fa-plus fa-3x"></i>
@@ -22,7 +21,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 customize-item">
-                    <a class="customize-link" data-toggle="modal" href="/">
+                    <a class="customize-link" data-toggle="modal" href="#customizeModal2">
                         <div class="customize-hover">
                             <div class="customize-hover-content">
                                 <i class="fas fa-plus fa-3x"></i>

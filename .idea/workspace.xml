@@ -2,25 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccf517b6-39c9-4deb-996b-63149eb76825" name="Default Changelist" comment="add new components and create sass file">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Frontend/PcBuilderController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repository/PcBuilderRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Frontend/PcBuilder/pcBuilder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Frontend/PcBuilder/home.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Frontend/PcBuilder/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Frontend/Setups/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/ProductSliderComponent.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Component.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Component.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdministratorController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ApplicationController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SetupController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Frontend/SetupController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Setup.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Setup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repository/PcBuilderRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repository/PcBuilderRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/ConfigurationComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/ConfigurationComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/ContactComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/ContactComponent.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/CustomizeComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/CustomizeComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/CustomizeModalComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/CustomizeModalComponent.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/_custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_custom.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Frontend/PcBuilder/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Frontend/PcBuilder/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Frontend/PcBuilder/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Frontend/PcBuilder/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Frontend/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Frontend/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,25 +60,25 @@
           <entry key="json" value="4" />
           <entry key="key" value="1" />
           <entry key="lock" value="1" />
-          <entry key="php" value="142" />
+          <entry key="php" value="146" />
           <entry key="scss" value="4" />
           <entry key="stub" value="1" />
-          <entry key="vue" value="33" />
+          <entry key="vue" value="37" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Blade" value="43" />
+          <entry key="Blade" value="46" />
           <entry key="CSS" value="2" />
           <entry key="Image" value="2" />
           <entry key="JSON" value="4" />
           <entry key="JavaScript" value="27" />
-          <entry key="PHP" value="98" />
+          <entry key="PHP" value="99" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="SCSS" value="4" />
           <entry key="Scratch" value="1" />
-          <entry key="Vue.js" value="33" />
+          <entry key="Vue.js" value="37" />
           <entry key="XML" value="1" />
           <entry key="htaccess" value="1" />
           <entry key="yarn.lock" value="1" />
@@ -92,20 +90,20 @@
           <entry key="gitignore" value="18" />
           <entry key="js" value="2008" />
           <entry key="json" value="48" />
-          <entry key="php" value="7467" />
+          <entry key="php" value="7482" />
           <entry key="scss" value="114" />
-          <entry key="vue" value="882" />
+          <entry key="vue" value="918" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Blade" value="3163" />
+          <entry key="Blade" value="3175" />
           <entry key="JSON" value="48" />
           <entry key="JavaScript" value="2008" />
-          <entry key="PHP" value="4304" />
+          <entry key="PHP" value="4307" />
           <entry key="PLAIN_TEXT" value="74" />
           <entry key="SCSS" value="114" />
-          <entry key="Vue.js" value="882" />
+          <entry key="Vue.js" value="918" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -122,51 +120,58 @@
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/resources/views/Frontend/Setups/index.blade.php">
+            <entry file="file://$PROJECT_DIR$/webpack.mix.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="28" column="64" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="64" />
+                <state relative-caret-position="323">
+                  <caret line="19" selection-start-line="19" selection-end-line="19" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/resources/views/Frontend/PcBuilder/home.blade.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="201">
+                  <caret line="13" selection-start-line="13" selection-end-line="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/routes/web.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="136">
+                  <caret line="47" selection-start-line="47" selection-end-line="47" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/resources/js/components/ProductSliderComponent.vue">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="204">
+                  <caret line="27" column="106" selection-start-line="27" selection-start-column="106" selection-end-line="27" selection-end-column="106" />
                   <folding>
-                    <element signature="e#6#75#0#PHP" expanded="true" />
-                    <element signature="e#488#495#1#HTML" expanded="true" />
-                    <element signature="e#1069#1076#1#HTML" expanded="true" />
+                    <element signature="n#style#0;n#v-container#0;n#v-card#0;n#div#0;n#template#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/resources/js/Frontend/PcBuilder/pcBuilder.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/webpack.mix.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="18" column="94" selection-start-line="18" selection-start-column="94" selection-end-line="18" selection-end-column="94" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/resources/js/Backend/Users/editModal.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="173">
-                  <caret line="21" column="5" selection-end-line="33" selection-end-column="3" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/routes/web.php">
+            <entry file="file://$PROJECT_DIR$/resources/views/Frontend/PcBuilder/index.blade.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="136">
-                  <caret line="23" column="63" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="74" />
+                  <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/Repository/PcBuilderRepository.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="187">
+                  <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
                 </state>
               </provider>
             </entry>
@@ -176,44 +181,37 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Frontend/SetupController.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="62" column="83" selection-start-line="62" selection-start-column="83" selection-end-line="62" selection-end-column="83" />
-                  <folding>
-                    <element signature="e#49#85#0#PHP" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/resources/views/Frontend/PcBuilder/home.blade.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="343">
-                  <caret line="26" column="78" selection-start-line="26" selection-start-column="78" selection-end-line="26" selection-end-column="78" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="230">
+                <state relative-caret-position="252">
                   <caret line="20" column="32" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="32" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/resources/views/Backend/Components/index.blade.php">
+            <entry file="file://$PROJECT_DIR$/resources/views/Frontend/home.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="39" />
-                  <folding>
-                    <element signature="e#2639#2646#1#HTML" expanded="true" />
-                    <element signature="e#3220#3227#1#HTML" expanded="true" />
-                  </folding>
+                <state relative-caret-position="289">
+                  <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/resources/js/components/CustomizeModalComponent.vue">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1394">
+                  <caret line="82" column="18" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/resources/js/components/CustomizeComponent.vue">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="408">
+                  <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
                 </state>
               </provider>
             </entry>
@@ -234,8 +232,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Auth::use</find>
-      <find>type</find>
       <find>points</find>
       <find>main-nav navbar navbar-expand-lg navbar-dark fixed-top</find>
       <find>transparent</find>
@@ -264,6 +260,8 @@
       <find>editModal.js</find>
       <find>{{ route('</find>
       <find>destroy(</find>
+      <find>max--values</find>
+      <find>getComponentBy</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/resources/img</dir>
@@ -281,8 +279,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Console/AuthMakeCommand.php" />
-        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Frontend/FrontendController.php" />
@@ -320,18 +316,20 @@
         <option value="$PROJECT_DIR$/resources/js/components/NavbarComponent.vue" />
         <option value="$PROJECT_DIR$/resources/js/components/Backend/NavbarComponent.vue" />
         <option value="$PROJECT_DIR$/app/Component.php" />
-        <option value="$PROJECT_DIR$/app/Repository/PcBuilderRepository.php" />
         <option value="$PROJECT_DIR$/resources/views/Backend/Components/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Frontend/PcBuilderController.php" />
         <option value="$PROJECT_DIR$/webpack.mix.js" />
-        <option value="$PROJECT_DIR$/resources/views/Frontend/PcBuilder/home.blade.php" />
         <option value="$PROJECT_DIR$/resources/js/Frontend/PcBuilder/pcBuilder.js" />
-        <option value="$PROJECT_DIR$/resources/views/Frontend/PcBuilder/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Setup.php" />
         <option value="$PROJECT_DIR$/resources/views/Frontend/Setups/index.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Frontend/SetupController.php" />
+        <option value="$PROJECT_DIR$/resources/views/Frontend/home.blade.php" />
+        <option value="$PROJECT_DIR$/app/Repository/PcBuilderRepository.php" />
+        <option value="$PROJECT_DIR$/resources/views/Frontend/PcBuilder/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/js/components/ProductSliderComponent.vue" />
+        <option value="$PROJECT_DIR$/resources/views/Frontend/PcBuilder/home.blade.php" />
       </list>
     </option>
   </component>
@@ -482,28 +480,6 @@
             <path>
               <item name="pc_builder" type="b2602c69:ProjectViewProjectNode" />
               <item name="pc_builder" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="Backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pc_builder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pc_builder" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="Frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pc_builder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pc_builder" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pc_builder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pc_builder" type="462c0819:PsiDirectoryNode" />
               <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -533,50 +509,13 @@
               <item name="pc_builder" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="Backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pc_builder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pc_builder" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="Backend" type="462c0819:PsiDirectoryNode" />
-              <item name="Users" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pc_builder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pc_builder" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pc_builder" type="b2602c69:ProjectViewProjectNode" />
               <item name="pc_builder" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="Frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pc_builder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pc_builder" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="Frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="PcBuilder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pc_builder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pc_builder" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pc_builder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pc_builder" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="Backend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pc_builder" type="b2602c69:ProjectViewProjectNode" />
@@ -592,14 +531,6 @@
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="Frontend" type="462c0819:PsiDirectoryNode" />
               <item name="PcBuilder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pc_builder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pc_builder" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="Frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="Setups" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pc_builder" type="b2602c69:ProjectViewProjectNode" />
@@ -625,19 +556,19 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\pc_builder\app\Http\Controllers\Frontend" />
-      <recent name="C:\xampp\htdocs\pc_builder\app" />
-      <recent name="C:\xampp\htdocs\pc_builder\resources\js\components\Backend" />
-      <recent name="C:\xampp\htdocs\pc_builder\resources\js" />
-      <recent name="C:\xampp\htdocs\pc_builder\resources\views\Frontend" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\pc_builder\app\Http\Controllers\Backend" />
       <recent name="C:\xampp\htdocs\pc_builder\resources\views\Backend\Components" />
       <recent name="C:\xampp\htdocs\pc_builder\resources\views\Backend" />
       <recent name="$PROJECT_DIR$/resources/js" />
       <recent name="$PROJECT_DIR$/resources/img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\pc_builder\app\Http\Controllers\Frontend" />
+      <recent name="C:\xampp\htdocs\pc_builder\app" />
+      <recent name="C:\xampp\htdocs\pc_builder\resources\js\components\Backend" />
+      <recent name="C:\xampp\htdocs\pc_builder\resources\js" />
+      <recent name="C:\xampp\htdocs\pc_builder\resources\views\Frontend" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -740,7 +671,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187522000" />
+    <option name="totallyTimeSpent" value="189842000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -767,9 +698,9 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4996288" weight="0.3297587" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49597314" visible="true" weight="0.2851064" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49530202" visible="true" weight="0.2851064" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.6161841" weight="0.3297587" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50402683" side_tool="true" visible="true" weight="0.2851064" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.504698" side_tool="true" visible="true" weight="0.2851064" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3297587" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -821,23 +752,6 @@
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_16_144709_create_components_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="17" selection-start-line="17" selection-end-line="20" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Backend/BackendController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-          <folding>
-            <element signature="e#48#84#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/Backend/Users/users.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -849,13 +763,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/images/Dawid_Berk.jpg" />
     <entry file="file://$PROJECT_DIR$/resources/img/Dawid_Berk.jpg" />
-    <entry file="file://$PROJECT_DIR$/resources/views/Frontend/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/Frontend/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -990,13 +897,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/CustomizeComponent.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="24" column="73" selection-start-line="24" selection-start-column="73" selection-end-line="24" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Backend/ComponentController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1058,21 +958,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
+        <state relative-caret-position="252">
           <caret line="20" column="32" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdministratorController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1119" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ApplicationController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1119" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdministratorController.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ApplicationController.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/Backend/Components/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1091,13 +983,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.mix.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="94" selection-start-line="18" selection-start-column="94" selection-end-line="18" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/Frontend/PcBuilder/pcBuilder.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1112,13 +997,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Frontend/PcBuilder/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="26" column="78" selection-start-line="26" selection-start-column="78" selection-end-line="26" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Backend/ApplicationController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
@@ -1129,29 +1007,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Repository/PcBuilderRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/components/Backend/NavbarComponent.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="74" selection-start-line="2" selection-start-column="74" selection-end-line="2" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Frontend/PcBuilder/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="74" column="63" selection-start-line="74" selection-start-column="63" selection-end-line="74" selection-end-column="63" />
-          <folding>
-            <element signature="e#340#361#0#HTML" expanded="true" />
-            <element signature="e#4235#4242#1#HTML" expanded="true" />
-            <element signature="e#4816#4823#1#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1197,7 +1056,7 @@
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="23" column="63" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="74" />
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
@@ -1208,6 +1067,65 @@
           <folding>
             <element signature="e#49#85#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.mix.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Frontend/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/CustomizeModalComponent.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="82" column="18" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/CustomizeComponent.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Repository/PcBuilderRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/ProductSliderComponent.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="27" column="106" selection-start-line="27" selection-start-column="106" selection-end-line="27" selection-end-column="106" />
+          <folding>
+            <element signature="n#style#0;n#v-container#0;n#v-card#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Frontend/PcBuilder/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Frontend/PcBuilder/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>

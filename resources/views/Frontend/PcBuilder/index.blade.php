@@ -10,7 +10,7 @@
 
 @section('content')
     <div class="d-flex justify-content-center">
-        <div class="card px-4 py-4" style="width: 18rem;">
+        <div class="card px-4 py-4">
             <img class="card-img-top image--max--values--frontend" src="{{ $application->image_url }}"
                  alt="Card image cap">
             <div class="card-body">
