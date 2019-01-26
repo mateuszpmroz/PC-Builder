@@ -1,12 +1,19 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Frontend;
 
+use App\Http\Controllers\Controller;
 use App\Setup;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class SetupController extends Controller
 {
+    public function __construct()
+    {
+        Auth::user();
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -14,39 +21,11 @@ class SetupController extends Controller
      */
     public function index()
     {
-        //
-    }
-
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
-    }
-
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
-    {
-        //
-    }
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\Setup  $setup
-     * @return \Illuminate\Http\Response
-     */
-    public function show(Setup $setup)
-    {
-        //
+        $setups = Setup::where('user_id', Auth::id())->get() ?? [];
+        return view('Frontend.Setups.index', [
+            'authUser' => Auth::user(),
+            'setups' => $setups
+        ]);
     }
 
     /**
@@ -78,8 +57,9 @@ class SetupController extends Controller
      * @param  \App\Setup  $setup
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Setup $setup)
+    public function destroy($id)
     {
-        //
+        Setup::destroy($id);
+        return redirect(route('setups.index'))->with('alert-success', 'Konfiguracja została usunięta!');
     }
 }

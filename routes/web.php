@@ -16,6 +16,14 @@ Auth::routes();
 Route::get('/', 'Frontend\FrontendController@index')->name('home');
 Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
 
+//pc-builder
+Route::get('pc-builder/{id}', 'Frontend\PcBuilderController@index')->name('pc-builder.index');
+Route::post('pc-builder/store/', 'Frontend\PcBuilderController@store')->name('pc-builder.store');
+
+//setups
+Route::get('setups', 'Frontend\SetupController@index')->name('setups.index');
+Route::post('setup/delete/{id}', 'Frontend\SetupController@destroy')->name('setup.delete');
+
 //Backend
 Route::middleware(['auth', 'admin'])->group(function () {
     Route::prefix('backend')->group(function () {

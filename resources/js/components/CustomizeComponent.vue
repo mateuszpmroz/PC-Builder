@@ -9,7 +9,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-6 customize-item">
-                    <a class="customize-link" data-toggle="modal" href="#customizeModal">
+                    <a class="customize-link" data-toggle="modal" href="/">
                         <div class="customize-hover">
                             <div class="customize-hover-content">
                                 <i class="fas fa-plus fa-3x"></i>
@@ -22,7 +22,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 customize-item">
-                    <a class="customize-link" data-toggle="modal" href="#customizeModal">
+                    <a class="customize-link" data-toggle="modal" href="/">
                         <div class="customize-hover">
                             <div class="customize-hover-content">
                                 <i class="fas fa-plus fa-3x"></i>

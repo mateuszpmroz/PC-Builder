@@ -19,4 +19,9 @@ class Component extends Model
     protected $fillable = [
         'name', 'type', 'points', 'price'
     ];
+
+    public function getNameWithPrice()
+    {
+        return "$this->name - {$this->price}.00zł";
+    }
 }

@@ -38373,7 +38373,7 @@ var staticRenderFns = [
                 "a",
                 {
                   staticClass: "customize-link",
-                  attrs: { "data-toggle": "modal", href: "#customizeModal" }
+                  attrs: { "data-toggle": "modal", href: "/" }
                 },
                 [
                   _c("div", { staticClass: "customize-hover" }, [
@@ -38403,7 +38403,7 @@ var staticRenderFns = [
                 "a",
                 {
                   staticClass: "customize-link",
-                  attrs: { "data-toggle": "modal", href: "#customizeModal" }
+                  attrs: { "data-toggle": "modal", href: "/" }
                 },
                 [
                   _c("div", { staticClass: "customize-hover" }, [

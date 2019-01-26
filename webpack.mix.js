@@ -16,3 +16,4 @@ mix.js('resources/js/app.js', 'public/js')
 mix.js('resources/js/Backend/Users/editModal.js', 'public/js/Backend/Users/users.js');
 mix.js('resources/js/Backend/Components/editModal.js', 'public/js/Backend/Components/components.js');
 mix.js('resources/js/Backend/Applications/editModal.js', 'public/js/Backend/Applications/applications.js');
+mix.js('resources/js/Frontend/PcBuilder/pcBuilder.js', 'public/js/Frontend/PcBuilder/pcBuilder.js');
