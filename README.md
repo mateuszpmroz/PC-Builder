@@ -1,5 +1,8 @@
 # PC Builder
 
+Simple application, did for college purposes.
+![](application.gif)
+
 ## How to start
 
 1. Clone repository into your computer
