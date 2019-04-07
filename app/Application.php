@@ -20,4 +20,22 @@ class Application extends Model
         'is_program',
         'power_supplies_points',
     ];
+
+    public static function filterByGames(array $applications): array
+    {
+        return array_filter(array_map(function ($application) {
+            if (!$application->is_program) {
+                return $application;
+            }
+        }, $applications)) ?? [];
+    }
+
+    public static function filterByPrograms(array $applications): array
+    {
+        return array_filter(array_map(function ($application) {
+                if ($application->is_program) {
+                    return $application;
+                }
+            }, $applications)) ?? [];
+    }
 }

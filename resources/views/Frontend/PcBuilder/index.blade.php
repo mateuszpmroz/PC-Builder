@@ -22,7 +22,7 @@
                     tą grę
                     <?php endif; ?>
                 </p>
-                <a href="#" class="btn btn-primary">Zmień aplikacje</a>
+                <a href="/#customize" class="btn btn-primary">Zmień aplikacje</a>
             </div>
         </div>
     </div>

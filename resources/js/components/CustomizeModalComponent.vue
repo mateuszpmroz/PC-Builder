@@ -14,7 +14,7 @@
                         <div class="col-lg-8 mx-auto">
                             <div class="modal-body">
                                 <p>ZNAJDŹ GRĘ</p>
-                                <product-slider-component></product-slider-component>
+                                <product-slider-component :applications="games"></product-slider-component>
                             </div>
                         </div>
                     </div>
@@ -36,7 +36,7 @@
                         <div class="col-lg-8 mx-auto">
                             <div class="modal-body">
                                 <p>ZNAJDŹ PROGRAM</p>
-                                <product-slider-component></product-slider-component>
+                                <product-slider-component :applications="programs"></product-slider-component>
                             </div>
                         </div>
                     </div>
@@ -163,7 +163,9 @@
 </template>
 
 <script>
-
+    export default {
+        props: ['programs', 'games']
+    }
 </script>
 
 <style scoped>

@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers\Frontend;
 
+use App\Application;
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
 class FrontendController extends Controller
@@ -15,8 +15,13 @@ class FrontendController extends Controller
      */
     public function index()
     {
-        return view('Frontend\index', [
-            'authUser' => Auth::user()
+        $applications = Application::get()->all();
+        $programs = Application::filterByPrograms($applications);
+        $games = Application::filterByGames($applications);
+        return view('Frontend.index', [
+            'authUser' => Auth::user(),
+            'programs' => $programs,
+            'games' => $games
         ]);
     }
 }
