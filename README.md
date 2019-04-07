@@ -1,7 +1,7 @@
 # PC Builder
 
 Simple application, did for college purposes.
-![](application.gif)
+![](applikacja.gif)
 
 ## How to start
 
